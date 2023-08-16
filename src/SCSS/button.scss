@@ -1,0 +1,16 @@
+.button {
+  border-radius: 30px;
+  background: var(--accent, #4985ff);
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 36px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}

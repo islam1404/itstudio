@@ -1,0 +1,58 @@
+.video {
+    background-image: url('../images/video.png');
+    height: 570px;
+    padding-top: 70px;
+    position: relative;
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 146.28%;
+    }
+
+    &__text {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 158.47%;
+    }
+
+    &__inner {
+        background-image: url('../images/inner.png');
+        width: 970px;
+        height: 430px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        position: absolute;
+        left: calc(50% - 485px);
+        bottom: -80px;
+
+        div {
+            border-radius: 200px;
+            border: 1px solid #FFF;
+            width: 300px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 21px;
+        }
+
+        &-text {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 158.47%;
+        }
+    }
+}

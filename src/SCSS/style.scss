@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+$color: #fff;
+@mixin text($ts, $ff, $fsize, $fstyle, $lh) {
+  color: $ts;
+  font-family: $ff;
+  font-size: $fsize;
+  font-style: $fstyle;
+  line-height: $lh;
+}
+
+@import "./header.scss";
+@import "./banner.scss";
+@import "./button.scss";
+@import "./create.scss";
+@import "./high.scss";
+@import "./work.scss";
+@import "./projects.scss";
+@import "./video.scss";
+@import "./contact.scss";
+@import "./footer.scss";
+@import "./media.scss";
